@@ -1,13 +1,19 @@
-# Welcome to Defold
+[ENG]
+# WELCOME TO NATURE OF CODE + DEFOLD
 
-This project was created from the "empty" project template.
+This project is just an exercise of implementation for (almost) every lesson explain on [The Nature of Code](https://natureofcode.com) by Daniel Shiffman using [Defold](https://defold.com/) Game Engine.
 
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
+If you are struggling with mathematics or physics concepts for game development, particle system implementation of steering behaviors, this could be a great starting point on your path and then, build more complex system.
 
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
+Any comment to improve the code will be welcome!
 
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
+[ESP]
+# BIENVENID@ A NATURE OF CODE + DEFOLD
 
-Happy Defolding!
+Es proyecto es un ejercicio de implementación de (casi) cada lección explicada en [The Nature of Code](https://natureofcode.com) de Daniel Shiffman usando el motor de juegos [Defold](https://defold.com/)
+
+Si estás luchando contra algunos conceptos de matemáticas o físicas en el desarrollo de juegos, la implementación de sistema de partículas o los comportamientos *steering*, este podría ser el mejor lugar para comenzar tu camino y luego ir construyendo sistemas más complejos. 
+
+Cualquier comentario para mejorar el código será bienvenido.
 
 ---
