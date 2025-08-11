@@ -1,5 +1,5 @@
-local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
-local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+local vehiculo = require("lessons.lesson 5 - Autonomous Agents.modules.vehiculo")
+local steering = require("lessons.lesson 5 - Autonomous Agents.modules.steering")
 
 local function configurar(self)
 	msg.post(".", "acquire_input_focus")

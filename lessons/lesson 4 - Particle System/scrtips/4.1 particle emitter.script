@@ -1,4 +1,4 @@
-local Repeledor = require("modules.Lesson 4 - Particle System.repeledor")
+local Repeledor = require("lessons.lesson 4 - Particle System.modules.repeledor")
 
 go.property("max_particulas", 10)
 

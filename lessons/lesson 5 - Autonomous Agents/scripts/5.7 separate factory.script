@@ -1,4 +1,4 @@
-local repositorio_vehiculos = require("modules.Lesson 5 - Autonomous Agents.repositorio_vehiculos")
+local repositorio_vehiculos = require("lessons.lesson 5 - Autonomous Agents.modules.repositorio_vehiculos")
 
 local cantidad_vehiculos = 128
 

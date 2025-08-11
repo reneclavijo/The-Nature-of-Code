@@ -1,6 +1,6 @@
-local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
-local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
-local repositorio_vehiculos = require("modules.Lesson 5 - Autonomous Agents.repositorio_vehiculos")
+local vehiculo = require("lessons.lesson 5 - Autonomous Agents.modules.vehiculo")
+local steering = require("lessons.lesson 5 - Autonomous Agents.modules.steering")
+local repositorio_vehiculos = require("lessons.lesson 5 - Autonomous Agents.modules.repositorio_vehiculos")
 local vutil = require("modules.utilidades_vectores")
 
 local function configurar(self)

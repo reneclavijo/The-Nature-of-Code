@@ -1,5 +1,5 @@
-local Vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
-local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+local Vehiculo = require("lessons.lesson 5 - Autonomous Agents.modules.vehiculo")
+local steering = require("lessons.lesson 5 - Autonomous Agents.modules.steering")
 
 local function construir(self)
 	self.vehiculo = Vehiculo:new({

@@ -1,4 +1,4 @@
-local Particula = require("modules.Lesson 4 - Particle System.particula")
+local Particula = require("lessons.lesson 4 - Particle System.modules.particula")
 
 go.property("emisor", nil)
 
