@@ -1,0 +1,13 @@
+images {
+  image: "/graphics/sprites/black.png"
+}
+images {
+  image: "/graphics/sprites/blue.png"
+}
+images {
+  image: "/graphics/sprites/darkPurple.png"
+}
+images {
+  image: "/graphics/sprites/purple.png"
+}
+extrude_borders: 2

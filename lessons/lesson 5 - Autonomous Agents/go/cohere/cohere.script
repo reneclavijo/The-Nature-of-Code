@@ -1,0 +1,50 @@
+local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+local repositorio_vehiculos = require("modules.Lesson 5 - Autonomous Agents.repositorio_vehiculos")
+local vutil = require("modules.utilidades_vectores")
+
+local function configurar(self)
+	self.vehiculo = vehiculo:new({
+		id 				= go.get_id(),
+		posicion		= go.get_position(),
+		velocidad		= vutil.vector_random() * 2.5,
+		aceleracion 	= vmath.vector3(0),
+		velocidad_max 	= 2.5,
+		fuerza_max 		= 0.3
+	})
+	repositorio_vehiculos.agregar(self.vehiculo)
+end
+
+local function separate(self)
+	if (repositorio_vehiculos and repositorio_vehiculos.esta_lleno) then
+		local separate_steering_table = steering.cohere(self.vehiculo, repositorio_vehiculos)
+		self.vehiculo:aplicar_fuerza(separate_steering_table.steer)
+		if(separate_steering_table.en_accion) then
+			sprite.play_flipbook("#sprite", "playerShip2_green")
+		else
+			sprite.play_flipbook("#sprite", "playerShip2_orange")
+		end
+	end
+end
+
+------------------ DEFOLD ------------------
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	self.vehiculo:girar()
+	separate(self)
+end
+
+function on_message(self, message_id, message)
+	if (message_id == hash("configurar")) then
+		self.vehiculos = message.vehiculos
+	end
+end
+
+function on_input(self, action_id, action)
+	--obtener_pos_mouse(self, action)
+end
+

@@ -1,0 +1,21 @@
+local r;
+local teta;
+local delta = 4.5;
+
+function init(self)
+	
+	local w, h = window.get_size();
+	r = 5.0;
+	teta = 0;
+end
+
+function update(self, dt)
+	-- Coordenada polares (r, teta) se transforman a Cartesianas (x,y)
+	local x = r * math.cos(teta);
+	local y = r * math.sin(teta);
+	local pos_cartesiana = vmath.vector3(x, y, 0);
+	go.set_position(go.get_position() + pos_cartesiana);
+	-- para hacer un movimiento es espiral
+	-- r = r + 0.01;
+	teta = teta + 0.05;
+end

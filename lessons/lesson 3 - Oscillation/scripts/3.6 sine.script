@@ -1,0 +1,20 @@
+local amplitud = 5; -- el alto de la señal
+local periodo = 120; -- la frecuencia con que se repite toda la gráfica
+local frame_count = 0;
+function init(self)
+	math.randomseed(os.time() + math.floor(os.clock() * 100000))
+	for i = 1, 10 do
+		factory.create("#factory", go.get_position())
+	end
+	
+end
+
+function update(self, dt)
+	-- podría verse así también -> sin(un valor que se va incrementando lentamente)
+	--[[
+	local y = amplitud * math.sin(2 * math.pi * frame_count / periodo)
+	local pos = go.get_position() + vmath.vector3(0, y, 0)
+	go.set_position(pos)
+	frame_count = frame_count + 1
+	]]--
+end

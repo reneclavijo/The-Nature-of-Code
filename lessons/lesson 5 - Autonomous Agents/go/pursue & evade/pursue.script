@@ -1,0 +1,55 @@
+local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+go.property("velocidad", vmath.vector3(0))
+
+local function configurar(self)
+	msg.post(".", "acquire_input_focus")
+	self.vehiculo = vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 2.5,
+		fuerza_max = 0.1
+	})
+	
+	self.pursue = vmath.vector3(0)
+	self.objetivo = vmath.vector3(0)
+end
+
+local function actualizar_props(self)
+	self.velocidad = self.vehiculo.velocidad
+end
+
+local function pursue(self)
+	local velocidad_objetivo = go.get("evade#evade", "velocidad") * 50 -- cantidad de distancia adicional que voy a perseguir
+	self.objetivo = go.get_position("evade")
+	self.pursue = steering.pursue(self.vehiculo, { pos = self.objetivo, vel = velocidad_objetivo })
+	self.vehiculo:aplicar_fuerza(self.pursue)
+end
+
+local function obtener_pos_mouse(self, action)
+	self.objetivo.x = action.x
+	self.objetivo.y = action.y
+end
+
+------------------ DEFOLD ------------------
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover(self)
+	pursue(self)
+	self.vehiculo:girar(self)
+	actualizar_props(self)
+end
+
+function on_message(self, message_id, message, sender)
+
+end
+
+
+function on_input(self, action_id, action)
+	--obtener_pos_mouse(self, action)
+end

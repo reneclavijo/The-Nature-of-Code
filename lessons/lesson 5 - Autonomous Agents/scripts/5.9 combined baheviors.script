@@ -1,0 +1,33 @@
+local repositorio_vehiculos = require("modules.Lesson 5 - Autonomous Agents.repositorio_vehiculos")
+
+local cantidad_vehiculos = 150
+local vehiculos = {}
+
+local function random_entre(a, b)
+	return a + math.random() * (b - a)
+end
+
+local function punto_random_pantalla()
+	local w, h = window.get_size()
+	return vmath.vector3(
+		random_entre(0, w),
+		random_entre(0, h),
+		0
+	)
+end
+
+function init(self)
+	math.randomseed(os.clock())
+	msg.post(".", "acquire_input_focus")
+	repositorio_vehiculos.cantidad_maxima = cantidad_vehiculos
+
+	for i = 1, cantidad_vehiculos do
+		vehiculos[i] = factory.create("#factory", punto_random_pantalla())
+	end
+end
+
+function on_input(self, action_id, action)
+	for i = 1, cantidad_vehiculos do
+		msg.post(vehiculos[i], "actualizar_mouse", { x = action.x, y = action.y })
+	end
+end

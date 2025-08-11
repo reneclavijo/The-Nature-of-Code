@@ -1,0 +1,42 @@
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+
+local function configurar(self)
+	msg.post(".", "acquire_input_focus")
+	self.vehiculo = vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 1.9,
+		fuerza_max = 0.1
+	})
+	
+	self.seek = vmath.vector3(0)
+	self.objetivo = vmath.vector3(0)
+end
+
+local function seek(self)
+	self.objetivo = go.get_position("flee")
+	self.seek = steering.seek(self.vehiculo, self.objetivo)
+	self.vehiculo:aplicar_fuerza(self.seek)
+end
+
+------------------ DEFOLD ------------------
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	seek(self)
+	self.vehiculo:girar()
+end
+
+function on_message(self, message_id, message, sender)
+
+end
+
+
+function on_input(self, action_id, action)
+	--obtener_pos_mouse(self, action)
+end

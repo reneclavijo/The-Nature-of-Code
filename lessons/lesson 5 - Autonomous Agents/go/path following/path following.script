@@ -1,0 +1,45 @@
+local Vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local Camino = require("modules.Lesson 5 - Autonomous Agents.camino")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+local function configurar(self)
+	math.randomseed(os.time())
+	self.vehiculo = Vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(5, -2, 0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 5,
+		fuerza_max = 0.3
+	})   
+
+	self.camino = Camino:new({
+		inicio	= vmath.vector3(100, 100, 0),
+		fin		= vmath.vector3(860, 100, 0),
+		radio	= 100
+	})
+	self.camino:mostrar_puntos(go.get_id("inicio"), go.get_id("fin"))
+end
+
+local function path_following(self)
+	local fuerza_steering = steering.path_follow(self.vehiculo, self.camino, { futuro = go.get_id("futuro"), objetivo = go.get_id("objetivo")})
+	self.vehiculo:aplicar_fuerza(fuerza_steering)
+end
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	self.vehiculo:girar()
+	path_following(self)
+end
+
+function on_message(self, message_id, message, sender)
+
+end
+
+function on_input(self, action_id, action)
+	
+end

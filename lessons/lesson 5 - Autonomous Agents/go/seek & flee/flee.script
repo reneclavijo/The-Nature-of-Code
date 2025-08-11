@@ -1,0 +1,46 @@
+local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+local function configurar(self)
+	msg.post(".", "acquire_input_focus")
+	self.vehiculo = vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 1.9,
+		fuerza_max = 0.1
+	})
+	self.flee = vmath.vector3(0)
+	self.objetivo = vmath.vector3(0)
+	self.freno = 0.99
+end
+
+local function flee(self)
+	self.objetivo = go.get_position("seek")
+	if (vmath.length(self.objetivo - self.vehiculo.posicion) < 100) then
+		self.flee = steering.flee(self.vehiculo, self.objetivo)
+		self.vehiculo:aplicar_fuerza(self.flee)
+	end
+	
+end
+
+------------------ DEFOLD ------------------
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	flee(self)
+	self.vehiculo:girar()
+end
+
+function on_message(self, message_id, message, sender)
+
+end
+
+
+function on_input(self, action_id, action)
+	--obtener_pos_mouse(self, action)
+end
+

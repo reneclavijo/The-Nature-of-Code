@@ -1,0 +1,1270 @@
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_small_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_small_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_small_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_small_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_black_small_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_small_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_small_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_small_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_small_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_blue_small_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_small_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_small_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_small_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_small_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_green_small_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_small_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_small_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_small_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_small_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_red_small_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_small_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_small_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_small_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_small_4.png"
+}
+images {
+  image: "/graphics/sprites/racing/Cars/car_yellow_small_5.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_black_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_black_green.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_black_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_black_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_blonde_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_blonde_green.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_blonde_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_blonde_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_brown_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_brown_green.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_brown_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/character_brown_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/racer_black.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/racer_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/racer_green.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/racer_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Characters/racer_yellow.png"
+}
+images {
+  image: "/graphics/sprites/racing/Motorcycles/motorcycle_black.png"
+}
+images {
+  image: "/graphics/sprites/racing/Motorcycles/motorcycle_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Motorcycles/motorcycle_green.png"
+}
+images {
+  image: "/graphics/sprites/racing/Motorcycles/motorcycle_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Motorcycles/motorcycle_yellow.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/arrow_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/arrow_yellow.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrel_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrel_blue_down.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrel_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrel_red_down.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrier_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrier_red_race.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrier_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/barrier_white_race.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/cone_down.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/cone_straight.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/light_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/light_yellow.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/lights.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/oil.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/rock1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/rock2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/rock3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/skidmark_long_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/skidmark_long_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/skidmark_long_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/skidmark_short_1.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/skidmark_short_2.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/skidmark_short_3.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tent_blue.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tent_blue_large.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tent_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tent_red_large.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tires_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tires_red_alt.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tires_white.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tires_white_alt.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tree_large.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tree_small.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tribune_empty.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tribune_full.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tribune_overhang_red.png"
+}
+images {
+  image: "/graphics/sprites/racing/Objects/tribune_overhang_striped.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt01.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt02.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt03.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt04.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt05.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt06.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt07.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt08.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt09.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt10.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt11.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt12.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt13.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt14.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt15.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt16.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt17.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt18.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt19.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt20.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt21.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt22.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt23.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt24.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt25.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt26.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt27.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt28.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt29.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt30.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt31.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt32.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt33.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt34.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt35.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt36.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt37.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt38.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt39.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt40.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt41.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt42.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt43.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt44.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt45.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt46.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt47.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt48.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt49.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt50.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt51.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt52.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt53.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt54.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt55.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt56.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt57.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt58.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt59.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt60.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt61.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt62.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt63.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt64.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt65.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt66.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt67.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt68.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt69.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt70.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt71.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt72.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt73.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt74.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt75.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt76.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt77.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt78.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt79.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt80.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt81.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt82.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt83.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt84.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt85.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt86.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt87.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt88.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt89.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Asphalt road/road_asphalt90.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt01.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt02.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt03.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt04.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt05.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt06.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt07.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt08.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt09.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt10.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt11.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt12.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt13.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt14.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt15.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt16.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt17.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt18.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt19.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt20.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt21.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt22.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt23.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt24.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt25.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt26.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt27.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt28.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt29.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt30.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt31.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt32.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt33.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt34.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt35.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt36.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt37.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt38.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt39.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt40.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt41.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt42.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt43.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt44.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt45.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt46.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt47.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt48.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt49.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt50.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt51.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt52.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt53.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt54.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt55.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt56.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt57.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt58.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt59.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt60.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt61.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt62.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt63.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt64.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt65.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt66.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt67.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt68.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt69.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt70.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt71.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt72.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt73.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt74.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt75.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt76.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt77.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt78.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt79.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt80.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt81.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt82.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt83.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt84.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt85.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt86.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt87.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt88.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt89.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt road/road_dirt90.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt01.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt02.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt03.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt04.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt05.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt06.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt07.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt08.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt09.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt10.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt11.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt12.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt13.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Dirt/land_dirt14.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass01.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass02.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass03.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass04.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass05.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass06.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass07.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass08.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass09.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass10.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass11.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass12.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass13.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Grass/land_grass14.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand01.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand02.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand03.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand04.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand05.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand06.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand07.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand08.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand09.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand10.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand11.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand12.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand13.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand14.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand15.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand16.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand17.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand18.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand19.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand20.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand21.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand22.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand23.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand24.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand25.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand26.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand27.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand28.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand29.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand30.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand31.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand32.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand33.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand34.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand35.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand36.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand37.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand38.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand39.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand40.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand41.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand42.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand43.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand44.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand45.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand46.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand47.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand48.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand49.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand50.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand51.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand52.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand53.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand54.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand55.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand56.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand57.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand58.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand59.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand60.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand61.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand62.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand63.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand64.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand65.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand66.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand67.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand68.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand69.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand70.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand71.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand72.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand73.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand74.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand75.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand76.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand77.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand78.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand79.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand80.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand81.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand82.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand83.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand84.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand85.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand86.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand87.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand88.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand89.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand road/road_sand90.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand01.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand02.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand03.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand04.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand05.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand06.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand07.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand08.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand09.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand10.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand11.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand12.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand13.png"
+}
+images {
+  image: "/graphics/sprites/racing/Tiles/Sand/land_sand14.png"
+}
+extrude_borders: 2

@@ -1,0 +1,118 @@
+name: "lesson 5 - path following"
+instances {
+  id: "path following"
+  prototype: "/prototipos/Lesson 5 - Autonomous Agents/path following/path following.go"
+  position {
+    x: 480.0
+    y: 320.0
+  }
+}
+scale_along_z: 0
+embedded_instances {
+  id: "futuro"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"ufoGreen\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/graphics/atlas/assets.atlas\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  scale {\n"
+  "    x: 0.1\n"
+  "    y: 0.1\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 480.0
+    y: 370.0
+  }
+}
+embedded_instances {
+  id: "objetivo"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"ufoRed\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "size {\\n"
+  "  x: 91.0\\n"
+  "  y: 91.0\\n"
+  "}\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/graphics/atlas/assets.atlas\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  scale {\n"
+  "    x: 0.1\n"
+  "    y: 0.1\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -17.0
+    y: 9.0
+  }
+}
+embedded_instances {
+  id: "inicio"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"barrel_blue\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "size {\\n"
+  "  x: 91.0\\n"
+  "  y: 91.0\\n"
+  "}\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/graphics/atlas/racing.atlas\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  scale {\n"
+  "    x: 0.5\n"
+  "    y: 0.5\n"
+  "    z: 0.5\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 6.0
+    y: 11.0
+  }
+}
+embedded_instances {
+  id: "fin"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"barrel_red\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "size {\\n"
+  "  x: 56.0\\n"
+  "  y: 56.0\\n"
+  "}\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/graphics/atlas/racing.atlas\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  scale {\n"
+  "    x: 0.5\n"
+  "    y: 0.5\n"
+  "    z: 0.5\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 12.0
+    y: 2.0
+  }
+}

@@ -1,0 +1,27 @@
+function init(self)
+	local min_velocidad = 0.1
+	local max_velocidad = 0.2
+	local min_amplitud = 5
+	local max_amplitud = 10
+	
+	self.angulo = vmath.vector3(0)
+	self.velocidad_angular = vmath.vector3(
+		min_velocidad + math.random() * (max_velocidad - min_velocidad),
+		min_velocidad + math.random() * (max_velocidad - min_velocidad),
+		0
+	);
+	self.amplitud = vmath.vector3(
+		min_amplitud + math.random() * (max_amplitud - min_amplitud),
+		min_amplitud + math.random() * (max_amplitud - min_amplitud),
+		0
+	);
+end
+
+function update(self, dt)
+	self.angulo = self.angulo + self.velocidad_angular
+	-- movimiento
+	local x = math.sin(self.angulo.x) * self.amplitud.x
+	local y = math.sin(self.angulo.y) * self.amplitud.y
+	local pos = vmath.vector3(x,y,0)
+	go.set_position(go.get_position() + pos)
+end

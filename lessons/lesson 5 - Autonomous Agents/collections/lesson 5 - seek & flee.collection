@@ -1,0 +1,18 @@
+name: "lesson 5 - seek"
+instances {
+  id: "seek"
+  prototype: "/prototipos/Lesson 5 - Autonomous Agents/seek & flee/seek.go"
+  position {
+    x: 480.0
+    y: 320.0
+  }
+}
+instances {
+  id: "flee"
+  prototype: "/prototipos/Lesson 5 - Autonomous Agents/seek & flee/flee.go"
+  position {
+    x: 293.0
+    y: 434.0
+  }
+}
+scale_along_z: 0

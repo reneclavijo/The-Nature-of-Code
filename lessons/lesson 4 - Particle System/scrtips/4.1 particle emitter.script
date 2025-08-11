@@ -1,0 +1,56 @@
+local Repeledor = require("modules.Lesson 4 - Particle System.repeledor")
+
+go.property("max_particulas", 10)
+
+local gravedad = vmath.vector3(0, 0.2, 0)
+
+local function crear_particula(self)
+	local random = math.random()
+	local particula_url = hash("")
+	if random > 0.5 then
+		particula_url = factory.create("#factory_particulas")
+	else
+		particula_url = factory.create("#factory_confetti")
+	end
+	msg.post(particula_url, "configurar", { posicion = go.get_position(), emisor = go.get_id(), tiempo_vida = 100, velocidad_muerte = 3 })
+	table.insert(self.particulas, particula_url)
+end
+
+------------------------- DEFOLD -------------------------
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	math.randomseed(os.time())
+	self.particulas = {}
+	self.viento = vmath.vector3(0)
+	local pos_repeledor = go.get_position("4.3 repeller")
+	self.repeledor = Repeledor:new(pos_repeledor.x, pos_repeledor.y, 500, 45, 640)
+end
+
+function update(self, dt)
+	if(#self.particulas < self.max_particulas) then
+		crear_particula(self)
+	end
+	
+	for i = 1, #self.particulas do
+		msg.post(self.particulas[i], "agregar_fuerza", { fuerza = gravedad })
+		local fuerza_repeledor = self.repeledor:repeler(go.get_position(self.particulas[i]))
+		msg.post(self.particulas[i], "agregar_fuerza", { fuerza = fuerza_repeledor })
+		msg.post(self.particulas[i], "agregar_fuerza", { fuerza = self.viento })
+	end
+end
+
+function on_message(self, message_id, message, sender)
+	if(message_id == hash("particula_muerta")) then
+		for index, value in ipairs(self.particulas) do
+			if(value == message.id) then
+				table.remove(self.particulas, index)
+				go.delete(message.id)
+			end
+		end
+	end
+end
+
+function on_input(self, action_id, action)
+	local p = vmath.lerp(action.x / 640, -0.2, 0.2)
+	self.viento.x = p -- parametrizar estos valores tal vez	
+end

@@ -1,0 +1,45 @@
+local Particula = require("modules.Lesson 4 - Particle System.particula")
+
+go.property("emisor", nil)
+
+local function estoy_muerta(self)
+	if (self.particula:estoy_muerta()) then
+		msg.post(self.particula.emisor, "particula_muerta", { id = go.get_id() })
+	end
+end
+
+local function configurar(self, posicion, emisor, tiempo_vida, velocidad_muerte)
+	self.particula.posicion 				= posicion
+	self.particula.emisor 					= emisor
+	self.particula.tiempo_vida_original 	= tiempo_vida or 100
+	self.particula.tiempo_vida 				= tiempo_vida or 100
+	self.particula.velocidad_muerte 		= velocidad_muerte or 2
+end
+
+------------------------- DEFOLD -------------------------
+
+function init(self)
+	self.particula = Particula:new(
+		vmath.vector3(0),
+		vmath.vector3(math.random(-1, 1), math.random(-2, 1), 0),
+		vmath.vector3(0),
+		nil,
+		100,
+		2
+	)
+end
+
+function update(self, dt)
+	self.particula:update()
+	go.set_position(self.particula.posicion)
+	go.set("#sprite", "tint.w", self.particula.tiempo_vida / self.particula.tiempo_vida_original)
+	estoy_muerta(self)
+end
+
+function on_message(self, message_id, message, sender)
+	if(message_id == hash("agregar_fuerza")) then
+		self.particula:aplicar_fuerza(message.fuerza)
+	elseif(message_id == hash("configurar")) then
+		configurar(self, message.posicion, message.emisor, message.tiempo_vida, message.velocidad_muerte)
+	end
+end

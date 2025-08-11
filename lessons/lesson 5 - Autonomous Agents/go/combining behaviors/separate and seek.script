@@ -1,0 +1,47 @@
+local vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+local repositorio_vehiculos = require("modules.Lesson 5 - Autonomous Agents.repositorio_vehiculos")
+
+local function configurar(self)
+	self.vehiculo = vehiculo:new({
+		id 			= go.get_id(),
+		posicion 	= go.get_position(),
+		velocidad 	= vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 3,
+		fuerza_max = 1
+	})
+	repositorio_vehiculos.agregar(self.vehiculo)
+end
+
+local function execute_behaviors(self)
+	if self.objetivo and repositorio_vehiculos.esta_lleno then
+		local seek = steering.seek(self.vehiculo, self.objetivo)
+		local separate = steering.separate(self.vehiculo, repositorio_vehiculos, { separacion = 50 })
+		self.vehiculo:aplicar_fuerza(seek)
+		self.vehiculo:aplicar_fuerza(separate.steer)
+	end
+end
+
+------------------ DEFOLD ------------------
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	execute_behaviors(self)
+	self.vehiculo:girar()
+end
+
+function on_message(self, message_id, message, sender)
+	if (message_id == hash("actualizar_mouse")) then
+		self.objetivo = vmath.vector3(message.x, message.y, 0)
+	end
+end
+
+
+function on_input(self, action_id, action)
+	
+end
+

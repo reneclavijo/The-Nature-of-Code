@@ -1,0 +1,43 @@
+local a = vmath.vector3(100, 0, 0)
+
+local function calcular_angulo(a, b)
+	local a_punto_b = vmath.dot(a, b)
+	local a_mag = vmath.length(a)
+	local b_mag = vmath.length(b)
+	return math.acos(a_punto_b/ (a_mag * b_mag))
+end
+
+local function calcular_proyeccion_escalar(self, b)
+	local a_vector = vmath.vector3(a) 							-- {0} Vector desde el centro hacia la derecha	(donde veremos la proyección)
+	local b_vector = vmath.vector3(b) 							-- {0} Vector desde el centro hacia el mouse	(el que se usar para proyectar)
+	a_vector = vmath.normalize(a_vector)						-- {1} Normalizar el vector donde "cae" la proyección
+	local proyeccion_escalar = vmath.dot(a_vector, b_vector)	-- {2} Calculamos el producto punto para saber cuánto de proyección tiene uno sobre el otro
+	return (a_vector * proyeccion_escalar) + self.centro		-- {3} Multiplicamos el vector normalizado por el producto punto para dejarlo proyectado y sumamos el centro para moverlo del (0,0)
+end
+
+local function mostrar_angulo_a_con_(self, b)
+	local angulo = calcular_angulo(a, b)
+	local txt = "angulo rad: "..angulo.."\nangulo deg: "..math.floor(math.deg(angulo))
+	gui.set_text(self.nodo_txt, txt)
+end
+
+local function actualizar_ui(self, b)
+	gui.set_rotation(self.nodo_b, vmath.quat_rotation_z(math.atan2(b.y, b.x)))
+	gui.set_position(self.nodo_mouse, b + self.centro)
+	gui.set_position(self.scalar_projection, calcular_proyeccion_escalar(self, b))
+end
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	self.nodo_mouse			= gui.get_node("mouse")
+	self.nodo_txt			= gui.get_node("txt_angulo")
+	self.nodo_b				= gui.get_node("nodo_b")
+	self.scalar_projection	= gui.get_node("scalar_projection")
+	self.centro 			= gui.get_position(gui.get_node("centro"))
+end
+
+function on_input(self, action_id, action)
+	local b = vmath.vector3(math.floor(action.x), math.floor(action.y), 0) - self.centro
+	actualizar_ui(self, b)
+	mostrar_angulo_a_con_(self, b)
+end

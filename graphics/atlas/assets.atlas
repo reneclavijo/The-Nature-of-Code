@@ -1,0 +1,52 @@
+images {
+  image: "/graphics/sprites/ufoBlue.png"
+}
+images {
+  image: "/graphics/sprites/ufoGreen.png"
+}
+images {
+  image: "/graphics/sprites/ufoRed.png"
+}
+images {
+  image: "/graphics/sprites/ufoYellow.png"
+}
+images {
+  image: "/graphics/sprites/playerShip1_blue.png"
+}
+images {
+  image: "/graphics/sprites/playerShip1_red.png"
+}
+images {
+  image: "/graphics/sprites/playerShip2_blue.png"
+}
+images {
+  image: "/graphics/sprites/playerShip2_red.png"
+}
+images {
+  image: "/graphics/sprites/playerShip3_blue.png"
+}
+images {
+  image: "/graphics/sprites/playerShip3_red.png"
+}
+images {
+  image: "/graphics/sprites/playerShip1_green.png"
+}
+images {
+  image: "/graphics/sprites/playerShip1_orange.png"
+}
+images {
+  image: "/graphics/sprites/playerShip2_green.png"
+}
+images {
+  image: "/graphics/sprites/playerShip2_orange.png"
+}
+images {
+  image: "/graphics/sprites/playerShip3_green.png"
+}
+images {
+  image: "/graphics/sprites/playerShip3_orange.png"
+}
+images {
+  image: "/graphics/sprites/arrowUp.png"
+}
+extrude_borders: 2

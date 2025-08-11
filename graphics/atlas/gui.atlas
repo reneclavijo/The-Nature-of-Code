@@ -1,0 +1,439 @@
+images {
+  image: "/graphics/sprites/gui/blue_boxCheckmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_boxCross.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_boxTick.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button00.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button01.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button02.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button03.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button04.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button05.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button06.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button07.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button08.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button09.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button10.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button11.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button12.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_button13.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_checkmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_circle.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_cross.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_panel.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_sliderDown.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_sliderLeft.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_sliderRight.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_sliderUp.png"
+}
+images {
+  image: "/graphics/sprites/gui/blue_tick.png"
+}
+images {
+  image: "/graphics/sprites/gui/dropdownBottom.png"
+}
+images {
+  image: "/graphics/sprites/gui/dropdownMid.png"
+}
+images {
+  image: "/graphics/sprites/gui/dropdownTop.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_boxCheckmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_boxCross.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_boxTick.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button00.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button01.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button02.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button03.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button04.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button05.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button06.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button07.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button08.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button09.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button10.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button11.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button12.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_button13.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_checkmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_circle.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_cross.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_panel.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_sliderDown.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_sliderLeft.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_sliderRight.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_sliderUp.png"
+}
+images {
+  image: "/graphics/sprites/gui/green_tick.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_arrowDownGrey.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_arrowDownWhite.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_arrowUpGrey.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_arrowUpWhite.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_box.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_boxCheckmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_boxCross.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_boxTick.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button00.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button01.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button02.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button03.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button04.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button05.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button06.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button07.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button08.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button09.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button10.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button11.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button12.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button13.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button14.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_button15.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_checkmarkGrey.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_checkmarkWhite.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_circle.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_crossGrey.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_crossWhite.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_panel.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderDown.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderEnd.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderHorizontal.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderLeft.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderRight.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderUp.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_sliderVertical.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_tickGrey.png"
+}
+images {
+  image: "/graphics/sprites/gui/grey_tickWhite.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_boxCheckmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_boxCross.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_boxTick.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button00.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button01.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button02.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button03.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button04.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button05.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button06.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button07.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button08.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button09.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button10.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button11.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button12.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_button13.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_checkmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_circle.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_cross.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_panel.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_sliderDown.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_sliderLeft.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_sliderRight.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_sliderUp.png"
+}
+images {
+  image: "/graphics/sprites/gui/red_tick.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_boxCheckmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_boxCross.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_boxTick.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button00.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button01.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button02.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button03.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button04.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button05.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button06.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button07.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button08.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button09.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button10.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button11.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button12.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_button13.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_checkmark.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_circle.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_cross.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_panel.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_sliderDown.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_sliderLeft.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_sliderRight.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_sliderUp.png"
+}
+images {
+  image: "/graphics/sprites/gui/yellow_tick.png"
+}
+extrude_borders: 2

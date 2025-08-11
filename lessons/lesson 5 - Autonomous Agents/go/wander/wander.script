@@ -1,0 +1,30 @@
+local Vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+local function configurar(self)
+	math.randomseed(os.time())
+	self.vehiculo = Vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 5,
+		fuerza_max = 0.2
+	})
+end
+
+local function wonder(self)
+	local fuerza_wonder = steering.wander(self.vehiculo, 200, { wander_point = "wander_point" })
+	self.vehiculo:aplicar_fuerza(fuerza_wonder)
+end
+
+------------------ DEFOLD ------------------
+
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	self.vehiculo:girar()
+	wonder(self)
+end

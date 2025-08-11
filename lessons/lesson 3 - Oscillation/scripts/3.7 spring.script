@@ -1,0 +1,52 @@
+local ancla = vmath.vector3(0)
+local largo = 0
+local k = 0.2 -- constante de spring (resorte)
+
+local function configurar(x, y, p_largo)
+	ancla.x = x
+	ancla.y = y
+	largo = p_largo
+	go.set_position(ancla)
+end
+
+local function conectar(bob)
+	local fuerza = go.get_position(bob) - go.get_position() 			-- obtener la direccion
+	local magnitud_fuerza = vmath.length(fuerza)						-- obtener la distancia actual entre el bob y el spring
+	local x = magnitud_fuerza - largo									-- calcular la X o stretch que es la diferencia entre el spring en reposo y la distancia real
+	local fuerza_normalizada = vmath.normalize(fuerza) * (-1 * k * x)	-- aplicamos la fórmula de spring (resortes)
+	msg.post(bob, "aplicar_fuerza", {fuerza = fuerza_normalizada})		-- le decimos al Bob que sume el cálculo
+end
+
+local function limitar_largo(bob, min_largo, max_largo)
+	local direccion = go.get_position(bob) - go.get_position()
+	local mag_direccion = vmath.length(direccion)
+
+	if(mag_direccion < min_largo) then
+		direccion = vmath.normalize(direccion) * min_largo
+		go.set_position(go.get_position() + direccion, bob)
+		msg.post(bob, "reiniciar_velocidad")
+	elseif(mag_direccion > max_largo) then
+		direccion = vmath.normalize(direccion) * max_largo
+		go.set_position(go.get_position() + direccion, bob)
+		msg.post(bob, "reiniciar_velocidad")
+	end
+end
+
+----------------- DEFOLD ----------------- 
+function init(self)
+
+end
+
+function update(self, dt)
+	go.set_position(ancla)
+end
+
+function on_message(self, message_id, message, sender)
+	if (message_id == hash("configurar")) then
+		configurar(message.x, message.y, message.largo)
+	elseif (message_id == hash("conectar")) then
+		conectar(message.bob)
+	elseif (message_id == hash("limitar_largo")) then
+		limitar_largo(message.bob, message.min_largo, message.max_largo)
+	end
+end

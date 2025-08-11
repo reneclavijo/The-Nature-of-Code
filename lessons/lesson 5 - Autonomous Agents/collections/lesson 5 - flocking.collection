@@ -1,0 +1,16 @@
+name: "lesson 5 - alignment"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "components {\n"
+  "  id: \"5.11 flock boids factory\"\n"
+  "  component: \"/scripts/Lesson 5 - Autonomous Agents/5.11 flock boids factory.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"factory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/prototipos/Lesson 5 - Autonomous Agents/flocking boid/boid.go\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}

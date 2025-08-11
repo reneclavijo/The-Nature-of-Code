@@ -1,0 +1,32 @@
+local Vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+local function configurar(self)
+	math.randomseed(os.time())
+	self.vehiculo = Vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(5, 5, 0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 3,
+		fuerza_max = 0.2
+	})
+end
+
+local function stay_within_walls(self)
+	local fuerza_boundaries = steering.stay_within_walls(self.vehiculo, 50)
+	if fuerza_boundaries then
+		self.vehiculo:aplicar_fuerza(fuerza_boundaries)
+	end
+end
+
+------------------ DEFOLD ------------------
+
+function init(self)
+	configurar(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	self.vehiculo:girar()
+	stay_within_walls(self)
+end

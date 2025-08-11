@@ -1,0 +1,20 @@
+local angulo = 0;
+local velocidadAngular = 0;
+local aceleracionAngular = 0.0001;
+
+function init(self)
+	
+end
+
+function update(self, dt)
+	local q = vmath.quat_rotation_z(angulo);
+	go.set_rotation(q);
+	velocidadAngular = velocidadAngular + aceleracionAngular;
+	angulo = angulo + velocidadAngular;
+end
+
+function on_message(self, message_id, message, sender)
+	-- Add message-handling code here
+	-- Learn more: https://defold.com/manuals/message-passing/
+	-- Remove this function if not needed
+end

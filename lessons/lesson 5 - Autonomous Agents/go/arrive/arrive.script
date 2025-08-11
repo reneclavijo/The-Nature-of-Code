@@ -1,0 +1,31 @@
+local Vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+local function construir(self)
+	self.vehiculo = Vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 5,
+		fuerza_max = 0.2
+	})
+end
+
+local function arrive(self)
+	local objetivo = go.get_position("objetivo")
+	local f_arrive = steering.arrive(self.vehiculo, objetivo, 100)
+	self.vehiculo:aplicar_fuerza(f_arrive)
+end
+
+------------------ DEFOLD ------------------
+
+function init(self)
+	construir(self)
+end
+
+
+function update(self, dt)
+	self.vehiculo:mover()
+	self.vehiculo:girar()
+	arrive(self)
+end

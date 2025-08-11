@@ -1,0 +1,79 @@
+local Vehiculo = require("modules.Lesson 5 - Autonomous Agents.vehiculo")
+local steering = require("modules.Lesson 5 - Autonomous Agents.steering")
+
+-- VARIABLES
+local ancho, alto = window.get_size()
+local flow_field = {}
+
+-- PROPIEDADES
+go.property("resolucion", 100)
+
+
+-- MÉTODOS LOCALES
+local function configurar(self)
+	math.randomseed(os.time())
+	self.filas = 0
+	self.columnas = 0
+	
+	self.vehiculo = Vehiculo:new({
+		posicion = go.get_position(),
+		velocidad = vmath.vector3(0),
+		aceleracion = vmath.vector3(0),
+		velocidad_max = 5,
+		fuerza_max = 0.2
+	})
+end
+
+local function  random_entre(min, max)
+	return min + math.random() * (max - min)
+end
+
+local function limitar(valor, min, max)
+	if (valor > max) then return max end
+	if (valor < min) then return min end
+	return valor
+end
+
+local function iniciar_flow_field(self)
+	self.filas = math.floor(alto / self.resolucion)
+	self.columnas = math.floor(ancho / self.resolucion)
+
+	local posx = self.resolucion
+	local posy = self.resolucion
+	for i = 1, self.filas, 1 do
+		flow_field[i] = {}
+		for j = 1, self.columnas do
+			local x  = random_entre(-1 ,1)
+			local y = random_entre(-1, 1)
+			flow_field[i][j] = vmath.vector3(x, y, 0)
+			factory.create("#factory", vmath.vector3(posx, posy, 0), vmath.quat_rotation_z(math.atan2(y, x)))
+			posx = posx + self.resolucion
+		end
+		posx = self.resolucion
+		posy = posy + self.resolucion
+	end
+end
+
+local function buscar_direccion(self)
+	local ff_x = limitar(math.floor(self.vehiculo.posicion.x / self.resolucion), 1, self.filas)
+	local ff_y = limitar(math.floor(self.vehiculo.posicion.y / self.resolucion), 1, self.columnas)
+	return vmath.vector3(flow_field[ff_x][ff_y])
+end
+
+local function follow_flow_field(self)
+	local fuerza_follow = steering.follow_flow_field(self.vehiculo, buscar_direccion(self))
+	self.vehiculo:aplicar_fuerza(fuerza_follow)
+end
+
+------------------ DEFOLD ------------------
+
+function init(self)
+	configurar(self)
+	iniciar_flow_field(self)
+end
+
+function update(self, dt)
+	self.vehiculo:mover()
+	self.vehiculo:girar()
+	follow_flow_field(self)
+end

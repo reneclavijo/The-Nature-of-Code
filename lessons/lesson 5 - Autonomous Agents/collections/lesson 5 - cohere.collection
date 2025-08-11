@@ -1,0 +1,16 @@
+name: "lesson 5 - separate"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "components {\n"
+  "  id: \"5.8 cohere factory\"\n"
+  "  component: \"/scripts/Lesson 5 - Autonomous Agents/5.8 cohere factory.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"factory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/prototipos/Lesson 5 - Autonomous Agents/cohere/cohere.go\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}

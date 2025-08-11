@@ -1,0 +1,17 @@
+local function obtener_pos_mouse(self, action)
+	self.objetivo.x = action.x
+	self.objetivo.y = action.y
+end
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	self.objetivo = vmath.vector3(0)
+end
+
+function update(self, dt)
+	go.set_position(self.objetivo)
+end
+
+function on_input(self, action_id, action)
+	obtener_pos_mouse(self, action)
+end

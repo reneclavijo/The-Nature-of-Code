@@ -1,0 +1,24 @@
+local bob = "bob"
+local spring = "spring"
+local gravedad = vmath.vector3(0, -2, 0)
+
+go.property("x_bob", 200)
+go.property("y_bob", -200)
+go.property("x_spring", 0)
+go.property("y_spring", 200)
+go.property("largo", 200)
+
+function init(self)
+	msg.post(spring, "configurar", { x = self.x_spring, y = self.y_spring, largo = self.largo })
+	msg.post(bob, "configurar", { x = self.x_bob, y = self.y_bob })
+end
+
+function update(self, dt)
+	msg.post(bob, "aplicar_fuerza", { fuerza = gravedad })
+	msg.post(spring, "conectar", { bob = bob })
+	msg.post(spring, "limitar_largo", { bob = bob, min_largo = 30, max_largo = 1000 })
+end
+
+function on_message(self, message_id, message, sender)
+
+end

@@ -1,0 +1,16 @@
+name: "lesson 5 - alignment"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "components {\n"
+  "  id: \"5.10 align factory\"\n"
+  "  component: \"/scripts/Lesson 5 - Autonomous Agents/5.10 align factory.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"factory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/prototipos/Lesson 5 - Autonomous Agents/alignment/align.go\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}

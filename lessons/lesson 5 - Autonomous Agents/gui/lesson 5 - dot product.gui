@@ -1,0 +1,80 @@
+script: "/gui/lesson 5 - autonomous agents/lesson 5 - dot product.gui_script"
+fonts {
+  name: "default"
+  font: "/builtins/fonts/default.font"
+}
+textures {
+  name: "gui"
+  texture: "/graphics/atlas/gui.atlas"
+}
+nodes {
+  position {
+    x: 100.0
+    y: 590.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "angulo:"
+  font: "default"
+  id: "txt_angulo"
+  line_break: true
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 480.0
+    y: 320.0
+  }
+  type: TYPE_BOX
+  texture: "gui/red_boxTick"
+  id: "centro"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  type: TYPE_BOX
+  texture: "gui/green_boxTick"
+  id: "mouse"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 480.0
+    y: 320.0
+  }
+  type: TYPE_BOX
+  texture: "gui/grey_sliderHorizontal"
+  id: "nodo_b"
+  pivot: PIVOT_W
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 480.0
+    y: 320.0
+  }
+  type: TYPE_BOX
+  texture: "gui/grey_sliderHorizontal"
+  id: "nodo_a"
+  pivot: PIVOT_W
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 480.0
+    y: 320.0
+  }
+  type: TYPE_BOX
+  texture: "gui/red_boxTick"
+  id: "scalar_projection"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT

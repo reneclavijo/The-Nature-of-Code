@@ -1,0 +1,19 @@
+local function crear_particulas(self, pos)
+	factory.create("#factory", pos, nil, { max_particulas = 50 })
+end
+
+------------------------- DEFOLD -------------------------
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+end
+
+function update(self, dt)
+
+end
+
+function on_input(self, action_id, action)
+	if(hash("touch") == action_id and action.pressed) then
+		crear_particulas(self, vmath.vector3(action.x, action.y, 0))
+	end
+end
