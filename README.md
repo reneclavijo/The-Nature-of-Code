@@ -17,3 +17,4 @@ Si estás luchando contra algunos conceptos de matemáticas o físicas en el des
 Cualquier comentario para mejorar el código será bienvenido.
 
 ---
+![Steering Behavior - Separate and Seek](graphics/gifs/lesson5-mixing_behaviors.gif)
