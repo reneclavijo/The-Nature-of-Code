@@ -1,6 +1,6 @@
 components {
   id: "seek"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/seek & flee/seek.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/seek & flee/seek.script"
 }
 embedded_components {
   id: "sprite"

@@ -1,6 +1,6 @@
 components {
   id: "oscilador"
-  component: "/prototipos/Lesson 3 - Oscillation/oscilador.script"
+  component: "/lessons/lesson 3 - Oscillation/go/oscilador.script"
 }
 embedded_components {
   id: "sprite"

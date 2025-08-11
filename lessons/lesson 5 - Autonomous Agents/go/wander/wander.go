@@ -1,6 +1,6 @@
 components {
   id: "wonder"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/wander/wander.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/wander/wander.script"
 }
 embedded_components {
   id: "sprite"

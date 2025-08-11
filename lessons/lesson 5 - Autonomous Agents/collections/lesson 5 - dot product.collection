@@ -4,7 +4,7 @@ embedded_instances {
   id: "gui"
   data: "components {\n"
   "  id: \"lesson 5 - dot product\"\n"
-  "  component: \"/gui/lesson 5 - autonomous agents/lesson 5 - dot product.gui\"\n"
+  "  component: \"/lessons/lesson 5 - Autonomous Agents/gui/lesson 5 - dot product.gui\"\n"
   "}\n"
   ""
 }

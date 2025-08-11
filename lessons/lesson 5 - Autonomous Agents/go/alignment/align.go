@@ -1,6 +1,6 @@
 components {
   id: "align"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/alignment/align.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/alignment/align.script"
 }
 embedded_components {
   id: "sprite"

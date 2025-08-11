@@ -1,6 +1,6 @@
 components {
   id: "separate"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/separate/separate.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/separate/separate.script"
 }
 embedded_components {
   id: "sprite"

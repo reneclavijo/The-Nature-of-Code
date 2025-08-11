@@ -1,7 +1,7 @@
 name: "lesson 5 - stay within walls"
 instances {
   id: "boundaries"
-  prototype: "/prototipos/Lesson 5 - Autonomous Agents/boundaries/boundaries.go"
+  prototype: "/lessons/lesson 5 - Autonomous Agents/go/boundaries/boundaries.go"
   position {
     x: 480.0
     y: 320.0

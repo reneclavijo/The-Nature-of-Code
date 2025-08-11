@@ -1,7 +1,7 @@
 name: "lesson 5 - wonder"
 instances {
   id: "wonder"
-  prototype: "/prototipos/Lesson 5 - Autonomous Agents/wander/wander.go"
+  prototype: "/lessons/lesson 5 - Autonomous Agents/go/wander/wander.go"
   position {
     x: 412.0
     y: 73.0
@@ -9,7 +9,7 @@ instances {
 }
 instances {
   id: "wander_point"
-  prototype: "/prototipos/Lesson 5 - Autonomous Agents/wander/wander_point.go"
+  prototype: "/lessons/lesson 5 - Autonomous Agents/go/wander/wander_point.go"
   position {
     x: 240.0
     y: 189.0

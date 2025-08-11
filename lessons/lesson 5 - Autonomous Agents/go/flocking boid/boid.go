@@ -1,6 +1,6 @@
 components {
   id: "boid"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/flocking boid/boid.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/flocking boid/boid.script"
 }
 embedded_components {
   id: "sprite"

@@ -1,7 +1,7 @@
 name: "lesson 5 - arrive"
 instances {
   id: "arrive"
-  prototype: "/prototipos/Lesson 5 - Autonomous Agents/arrive/arrive.go"
+  prototype: "/lessons/lesson 5 - Autonomous Agents/go/arrive/arrive.go"
   position {
     x: 480.0
     y: 320.0
@@ -12,7 +12,7 @@ embedded_instances {
   id: "objetivo"
   data: "components {\n"
   "  id: \"5.2 arrive_objetivo\"\n"
-  "  component: \"/scripts/Lesson 5 - Autonomous Agents/5.2 arrive_objetivo.script\"\n"
+  "  component: \"/lessons/lesson 5 - Autonomous Agents/scripts/5.2 arrive_objetivo.script\"\n"
   "}\n"
   "embedded_components {\n"
   "  id: \"sprite\"\n"

@@ -1,6 +1,6 @@
 components {
   id: "arrive"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/arrive/arrive.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/arrive/arrive.script"
 }
 embedded_components {
   id: "sprite"

@@ -1,6 +1,6 @@
 components {
   id: "boundaries"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/boundaries/boundaries.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/boundaries/boundaries.script"
 }
 embedded_components {
   id: "sprite"

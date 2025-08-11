@@ -4,7 +4,7 @@ embedded_instances {
   id: "go"
   data: "components {\n"
   "  id: \"randomness\"\n"
-  "  component: \"/scripts/Lesson 0 - Randomness/randomness.script\"\n"
+  "  component: \"/lessons/lesson 0 - Randomness/scripts/randomness.script\"\n"
   "}\n"
   "embedded_components {\n"
   "  id: \"sprite\"\n"

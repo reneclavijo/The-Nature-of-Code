@@ -1,6 +1,6 @@
 components {
   id: "flee"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/seek & flee/flee.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/seek & flee/flee.script"
 }
 embedded_components {
   id: "sprite"

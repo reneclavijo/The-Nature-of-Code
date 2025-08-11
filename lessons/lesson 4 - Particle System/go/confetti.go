@@ -1,6 +1,6 @@
 components {
   id: "particle"
-  component: "/prototipos/Lesson 4 - Particles/particula.script"
+  component: "/lessons/lesson 4 - Particle System/go/particula.script"
 }
 embedded_components {
   id: "sprite"

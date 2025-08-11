@@ -1,6 +1,6 @@
 components {
   id: "pursue"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/pursue & evade/pursue.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/pursue & evade/pursue.script"
 }
 embedded_components {
   id: "sprite"

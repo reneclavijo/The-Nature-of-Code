@@ -1,7 +1,7 @@
 name: "lesson 5 - pursue & evade"
 instances {
   id: "pursue"
-  prototype: "/prototipos/Lesson 5 - Autonomous Agents/pursue & evade/pursue.go"
+  prototype: "/lessons/lesson 5 - Autonomous Agents/go/pursue & evade/pursue.go"
   position {
     x: 511.0
     y: 372.0
@@ -9,7 +9,7 @@ instances {
 }
 instances {
   id: "evade"
-  prototype: "/prototipos/Lesson 5 - Autonomous Agents/pursue & evade/evade.go"
+  prototype: "/lessons/lesson 5 - Autonomous Agents/go/pursue & evade/evade.go"
   position {
     x: 380.0
     y: 337.0

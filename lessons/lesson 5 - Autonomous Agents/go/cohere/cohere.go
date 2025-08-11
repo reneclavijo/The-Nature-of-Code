@@ -1,6 +1,6 @@
 components {
   id: "cohere"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/cohere/cohere.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/cohere/cohere.script"
 }
 embedded_components {
   id: "sprite"

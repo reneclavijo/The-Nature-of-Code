@@ -1,6 +1,6 @@
 components {
   id: "path following"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/path following/path following.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/path following/path following.script"
 }
 embedded_components {
   id: "sprite"

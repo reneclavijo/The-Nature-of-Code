@@ -1,6 +1,6 @@
 components {
   id: "separate and seek"
-  component: "/prototipos/Lesson 5 - Autonomous Agents/combining behaviors/separate and seek.script"
+  component: "/lessons/lesson 5 - Autonomous Agents/go/combining behaviors/separate and seek.script"
 }
 embedded_components {
   id: "sprite"

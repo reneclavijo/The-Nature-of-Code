@@ -1,4 +1,4 @@
-script: "/gui/lesson 5 - autonomous agents/lesson 5 - dot product.gui_script"
+script: "/lessons/lesson 5 - Autonomous Agents/gui/lesson 5 - dot product.gui_script"
 fonts {
   name: "default"
   font: "/builtins/fonts/default.font"
