@@ -1,0 +1,16 @@
+name: "lesson 7 - cellular automata 1D"
+scale_along_z: 0
+embedded_instances {
+  id: "factory_cellula"
+  data: "components {\n"
+  "  id: \"factory_cell\"\n"
+  "  component: \"/lessons/lesson 7 - Cellular Automata/scripts/factory_celula.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"factory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/lessons/lesson 7 - Cellular Automata/go/celula 1D.go\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}

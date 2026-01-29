@@ -1,0 +1,64 @@
+-- 0: blanco
+-- 1: negro
+
+local tam_celula = 10
+local celulas = {}
+
+local function calcular_nuevo_estado(a, b, c)
+	if (a == 1 and b == 1 and c == 1) then return 0 end
+	if (a == 1 and b == 1 and c == 0) then return 0 end
+	if (a == 1 and b == 0 and c == 1) then return 0 end
+	if (a == 1 and b == 0 and c == 0) then return 0 end
+	if (a == 0 and b == 1 and c == 1) then return 0 end
+	if (a == 0 and b == 1 and c == 0) then return 0 end
+	if (a == 0 and b == 0 and c == 1) then return 0 end
+	if (a == 0 and b == 0 and c == 0) then return 1 end	
+end
+
+local function armar_celulas(self)
+	for i = 1, self.columnas do
+		celulas[i] = 0
+	end	
+	celulas[math.floor(self.columnas/2)] = 1
+	pprint(celulas)
+
+	for j = 1, self.filas do
+		
+	
+		local pos = vmath.vector3((tam_celula/2),self.alto - (tam_celula/2),0)
+		for index, value in ipairs(celulas) do
+			local margen = vmath.vector3((index-1)*tam_celula, (j-1)*tam_celula*-1, 0)
+			local celula = factory.create("#factory", pos + margen)
+			local url = msg.url(nil, celula, "sprite")
+			local color = math.abs(0.8 - value)
+			go.set(url, "tint", vmath.vector4(color, color, color, 1))
+			go.set(url, "size", vmath.vector3(tam_celula, tam_celula, 0))
+		end
+
+		local nuevas_celulas = {}
+		nuevas_celulas[1] = celulas[1]
+		nuevas_celulas[#celulas] = celulas[#celulas]
+		for i = 2, #celulas-1 do
+			local izquierda = celulas[i-1]
+			local derecha = celulas[i+1]
+			local estado = celulas[i]
+			local nuevo_estado = calcular_nuevo_estado(izquierda, estado, derecha)
+			nuevas_celulas[i] = nuevo_estado
+		end
+		
+		celulas = nuevas_celulas
+	end
+
+end
+
+function init(self)
+	math.randomseed(os.clock())
+	local w, h = window.get_size()
+	self.ancho = w
+	self.alto = h
+	self.filas = h / tam_celula
+	self.columnas = w / tam_celula
+	
+	armar_celulas(self)
+end
+

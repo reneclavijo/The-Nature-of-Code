@@ -1,5 +1,5 @@
 [bootstrap]
-main_collection = /lessons/lesson 5 - Autonomous Agents/collections/lesson 5 - wander.collectionc
+main_collection = /lessons/lesson 7 - Cellular Automata/collections/lesson 7 - 1 - cellular automata 1D.collectionc
 
 [script]
 shared_state = 1
@@ -26,5 +26,8 @@ max_count = 128
 max_count = 256
 
 [sprite]
-max_count = 256
+max_count = 16384
+
+[collection]
+max_instances = 16384
 

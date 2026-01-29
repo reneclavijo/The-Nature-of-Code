@@ -1,0 +1,16 @@
+embedded_components {
+  id: "sprite"
+  type: "sprite"
+  data: "default_animation: \"square\"\n"
+  "material: \"/lessons/lesson 7 - Cellular Automata/materials/sprite_celula.material\"\n"
+  "size {\n"
+  "  x: 128.0\n"
+  "  y: 128.0\n"
+  "}\n"
+  "size_mode: SIZE_MODE_MANUAL\n"
+  "textures {\n"
+  "  sampler: \"texture_sampler\"\n"
+  "  texture: \"/graphics/atlas/basics.atlas\"\n"
+  "}\n"
+  ""
+}

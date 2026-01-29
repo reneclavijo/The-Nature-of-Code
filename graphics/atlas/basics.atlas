@@ -1,0 +1,10 @@
+images {
+  image: "/graphics/sprites/basics/circle.png"
+}
+images {
+  image: "/graphics/sprites/basics/square.png"
+}
+images {
+  image: "/graphics/sprites/basics/triangle.png"
+}
+extrude_borders: 2
