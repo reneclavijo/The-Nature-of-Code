@@ -3,28 +3,23 @@
 
 local tam_celula = 10
 local celulas = {}
+local regla_wolfram = 22
+local regla_wolfram_bin = ""
 
 local function calcular_nuevo_estado(a, b, c)
-	if (a == 1 and b == 1 and c == 1) then return 0 end
-	if (a == 1 and b == 1 and c == 0) then return 0 end
-	if (a == 1 and b == 0 and c == 1) then return 0 end
-	if (a == 1 and b == 0 and c == 0) then return 0 end
-	if (a == 0 and b == 1 and c == 1) then return 0 end
-	if (a == 0 and b == 1 and c == 0) then return 0 end
-	if (a == 0 and b == 0 and c == 1) then return 0 end
-	if (a == 0 and b == 0 and c == 0) then return 1 end	
+	local regla_automata = tonumber(a..b..c, 2)
+	local r = string.sub(regla_wolfram_bin, (8-regla_automata), (8-regla_automata))
+	return tonumber(r)
 end
 
 local function armar_celulas(self)
 	for i = 1, self.columnas do
 		celulas[i] = 0
-	end	
+	end
 	celulas[math.floor(self.columnas/2)] = 1
-	pprint(celulas)
-
-	for j = 1, self.filas do
-		
 	
+	for j = 1, self.filas do
+
 		local pos = vmath.vector3((tam_celula/2),self.alto - (tam_celula/2),0)
 		for index, value in ipairs(celulas) do
 			local margen = vmath.vector3((index-1)*tam_celula, (j-1)*tam_celula*-1, 0)
@@ -45,10 +40,21 @@ local function armar_celulas(self)
 			local nuevo_estado = calcular_nuevo_estado(izquierda, estado, derecha)
 			nuevas_celulas[i] = nuevo_estado
 		end
-		
 		celulas = nuevas_celulas
 	end
 
+end
+
+local function convertir_regla_a_bin()
+	while regla_wolfram > 0 do
+		local residuo = regla_wolfram % 2
+		regla_wolfram_bin = regla_wolfram_bin..residuo
+		regla_wolfram = math.floor(regla_wolfram / 2)
+	end
+	while string.len(regla_wolfram_bin) < 8 do
+		regla_wolfram_bin = regla_wolfram_bin..0
+	end
+	regla_wolfram_bin = string.reverse(regla_wolfram_bin)
 end
 
 function init(self)
@@ -58,7 +64,7 @@ function init(self)
 	self.alto = h
 	self.filas = h / tam_celula
 	self.columnas = w / tam_celula
-	
+	convertir_regla_a_bin()
 	armar_celulas(self)
 end
 
